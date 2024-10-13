@@ -13,12 +13,12 @@ const cosas = {
   ],
   getAll: function (): Cosas[] {
     // Tu código
-    // return cosas.collection;
+    return cosas.collection;
   },
   // Método para obtener un objeto por id
   getById: function (id: number): Cosas | undefined {
     // Tu código
-    // return cosas.collection.find((c) => c.id === id);
+    return cosas.collection.find((c) => c.id === id);
   },
 };
 
